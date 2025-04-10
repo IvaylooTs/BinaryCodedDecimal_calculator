@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/sysprog/upr/BCD/cmake-build-debug/CMakeFiles/BCD.dir
+C:/Users/User/Desktop/sysprog/upr/BCD/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/sysprog/upr/BCD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
