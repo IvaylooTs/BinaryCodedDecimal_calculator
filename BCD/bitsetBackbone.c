@@ -5,14 +5,7 @@
 #include <limits.h>
 
 #define BITSET_WORD_SIZE (sizeof(unsigned long) * CHAR_BIT)
-//Currently the code accepts numbers and translates them to BCD. But if i want to write a negative number (like -10), it only takes the positive part (only 10).
-// I want you to modify it for you to keep the positive number when i type it, but i want you to raise a flag that it is negative.
-// I also want you to print that it is negative. Keep in mind that it should stay positive when entered.
-// When we use the operations - for sum If we see one of the numbers has negative flag raised we go to the subtraction function and depending on which number is negative you
-// should swap them in the arguments. If both are negative just perform the addition as normal and type that it is negative at the product. In the multiplication if one is negative,
-// multiply them normaly and then say that it is negative. if both are negative just multiply them normaly. For the subtraction if number2 is negative go to
-// addition function and perform it normaly, if number1 is negative just do the addition but write that the product is negative.
-// if both are negative you should do normal subtraction but it still depends which number (1 or 2) is from the right side of the subtraction.
+
 bool negative = false;
 bool negative_number = false;
 
